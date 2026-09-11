@@ -28,3 +28,7 @@
     background 0.3s ease-out,
     filter 0.3s ease-out;
 }
+
+.drops > li.ghost {
+  opacity: 0.4;
+}
