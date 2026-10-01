@@ -1,0 +1,39 @@
+.drops {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  & > li {
+    height: 80px;
+    padding: 0.2rem 0.5rem;
+    margin: 2rem;
+    background: #100632;
+    transition:
+      background 0.2s ease-out,
+      filter 0.2s ease-out;
+
+    & > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      cursor: grab;
+    }
+
+    &:hover {
+      background: #1a0a4f;
+      filter: drop-shadow(2px 2px 5px #ccc);
+      transition:
+        background 0.3s ease-out,
+        filter 0.3s ease-out;
+    }
+
+    &.ghost {
+      list-style: none;
+      opacity: 0.4;
+
+      & > div {
+        cursor: grabbing;
+      }
+    }
+  }
+}
