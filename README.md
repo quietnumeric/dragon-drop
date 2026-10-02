@@ -20,7 +20,8 @@ https://quietnumeric.github.io/dragon-drop/
 
 ## SortableJSとの違い
 
-- SortableJSは一部CSSの適用のされ方がおかしく(例えばリスト内で排他的に単一要素に掛かるべき `hover` 効果がリスト内の複数要素に掛かる等)、それを是正するためには振る舞いを上書き補正する必要があり、それでも尚残る不自然さがありましたが、それを解消することができています。
-  - [varl](https://github.com/quietnumeric/varl) での上書き補正例
-    - [JavaScript](https://github.com/quietnumeric/varl/blob/main/libs/draggable-helper.js)
-    - [CSS](https://github.com/quietnumeric/varl/blob/main/assets/scss/draggable-helper.scss)
+SortableJSは一部CSSの適用のされ方がおかしく(例えばリスト内で排他的に単一要素に掛かるべき `hover` 効果がリスト内の複数要素に掛かる等)、それを是正するためには振る舞いを上書き補正する必要があり、それでも尚残る不自然さがありましたが、それを解消することができています。
+
+#### [varl](https://github.com/quietnumeric/varl) での上書き補正例
+- [JavaScript](https://github.com/quietnumeric/varl/blob/main/libs/draggable-helper.js)
+- [CSS](https://github.com/quietnumeric/varl/blob/main/assets/scss/draggable-helper.scss)
